@@ -3,6 +3,7 @@ from Stats import enemyDict
 import random
 import math
 
+#lvl of dif on mob is not based on your lvl but per round
 def lvlDif(foeName, foeAC, foeHP, foeAP, turn):
       level = math.floor((foeAC + foeHP + foeAP) / 10)
       while level/3 >= turn:

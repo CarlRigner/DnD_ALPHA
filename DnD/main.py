@@ -76,7 +76,7 @@ while True:
        foe.subStats("HP", totalScore)
        time.sleep(1)
 
-       if foe.HP <= 0:
+       if foe.getStat("HP") <= 0:
           print("____________________________________________________\n")
           print(f"a {foe.foeName} has been slayed! \n")
           print("____________________________________________________\n")

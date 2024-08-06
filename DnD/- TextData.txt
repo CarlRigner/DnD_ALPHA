@@ -1,0 +1,80 @@
+ - TextData
+
+modifier = (ability Score - 10) /2
+roll d20 = dice roll + modifier 
+
+
+Fighter:
+Strength (STR): 15 (9 points)
+Constitution (CON): 14 (7 points)
+Dexterity (DEX): 13 (5 points)
+Intelligence (INT): 10 (2 points)
+Wisdom (WIS): 12 (4 points)
+Charisma (CHA): 8 (0 points)
+_______________________________________________________________________________________________
+Barbarian: Proficient with light armor, medium armor, shields; AC: 14
+Bard: Proficient with light armor; AC: 14
+Cleric: Proficient with light armor, medium armor, shields; AC: 18
+Druid: Proficient with light armor, medium armor; AC: 11
+Fighter: Proficient with light armor, medium armor, heavy armor, shields; AC: 16
+Monk: Proficient with no armor; AC: 10 + Dexterity modifier + Wisdom modifier
+Paladin: Proficient with light armor, medium armor, heavy armor, shields; AC: 18
+Ranger: Proficient with light armor, medium armor; AC: 14
+Rogue: Proficient with light armor; AC: 14
+Sorcerer: Proficient with no armor; AC: 13
+Warlock: Proficient with light armor; AC: 13
+Wizard: Proficient with no armor; AC: 13
+
+-
+Armor Calculation:
+Light Armor: Adds Dexterity modifier to AC.
+Medium Armor: Adds Dexterity modifier (up to +2) to AC. 
+16 Heavy Armor: Base AC only (Dexterity modifier not applied). -stealth penlites +shield bonus -15req Strength
+
+if not proficiency req - penlites in Dexterity roll, and spell cast and range attack with ex bow #lets say -30% hit rate
+-
+
+Base AC of Leather Armor: 11
+Dexterity Modifier: +3
+AC = 11 + 3 = 14
+
+
+Impact on Armor Statistics
+1. Chain Mail (Heavy Armor):------
+Base AC: 16
+
+Weight: 65 lbs
+
+Stealth Disadvantage: Yes
+
+Strength Requirement: 13 Strength
+
+Proficient Character:
+
+Uses base AC of 16.
+Dexterity modifier does not affect AC.
+Can wear it effectively and receive the full AC benefit.
+Not Proficient Character:
+
+Uses base AC of 16.
+Cannot apply Dexterity modifier.
+Suffers disadvantage on Stealth checks.
+May find it cumbersome due to lack of proficiency.
+
+2. Leather Armor (Light Armor):-----
+Base AC: 11
+
+Weight: 10 lbs
+
+Stealth Disadvantage: No
+
+Proficient Character:
+
+Base AC of 11 + full Dexterity modifier.
+Example: Dexterity modifier +3 results in an AC of 11 + 3 = 14.
+Not Proficient Character:
+
+Base AC of 11 + full Dexterity modifier.
+Example: Dexterity modifier +3 results in an AC of 11 + 3 = 14.
+May still use the armor effectively but with a general disadvantage in terms of class features.
+_______________________________________________________________________________________________________

@@ -1,6 +1,7 @@
 import random
 import time
 import math
+import sys
 from character import CharacterDescription
 from enemies import Enemy, lvlDif, foeGenerator
 from Stats import enemyDict, classDict
@@ -94,6 +95,16 @@ while True:
      #__________________________________________________________________________#
      #__________________________________________________________________________#
      
+     if foe.getStat("AP") >= characterMem.getStat("AC"):
+       print(f"\n Foe made a successful hit \n")
+       characterMem.subStats("HP", totalScore)
+       time.sleep(1)
+
+     if characterMem.getStat("HP") <= 0:
+        print("____________________________________________________\n")
+        print(f" Game over! \n")
+        print("____________________________________________________\n")
+        sys.exit()
 
 
 

@@ -46,7 +46,7 @@ class CharacterDescription:
 
     def addStats(self, attribute_name, number):
         if self.has_attribute(attribute_name):
-            current_value = getattr(self, attribute_name)          #gets the current value
+            current_value = getattr(self, attribute_name)          #gets the current values
 
             setattr(self, attribute_name, current_value + number)  #add number to current value
             return getattr(self, attribute_name)
